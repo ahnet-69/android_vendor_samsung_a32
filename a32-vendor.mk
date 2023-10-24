@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a32/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
     vendor/samsung/a32/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
+    vendor/samsung/a32/proprietary/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml \
     vendor/samsung/a32/proprietary/etc/init/init.nfc.samsung.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.nfc.samsung.rc \
     vendor/samsung/a32/proprietary/etc/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc \
     vendor/samsung/a32/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
